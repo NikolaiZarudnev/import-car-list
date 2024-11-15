@@ -38,7 +38,7 @@ abstract class BaseCar
 
     public function getPhotoFileExt(): string
     {
-        return pathinfo($this->photoFileName, PATHINFO_EXTENSION);
+        return '.' . pathinfo($this->photoFileName, PATHINFO_EXTENSION);
     }
 
     public function getCarType(): string
