@@ -1,3 +1,5 @@
+https://github.com/NikolaiZarudnev/import-car-list/blob/68b85cb4ff83a89c18d219da0f8e9a0b495f73f5/src/Service/BaseCarConverterService.php#L47
+
 # Execute
   `php bin/console app:get-car-list`
 
